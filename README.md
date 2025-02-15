@@ -1,8 +1,8 @@
-RebalanceAI - AI-Powered Liquidity Rebalancer
+** RebalanceAI - AI-Powered Liquidity Rebalancer
 
 RebalanceAI is an autonomous liquidity rebalancing platform that optimizes Uniswap liquidity positions using AI-driven strategies. It integrates Steer Protocol, StakeKit, and Chainlink price feeds to monitor, analyze, and adjust liquidity in real-time, ensuring capital efficiency and automated treasury management.
 
-AI-Powered Liquidity Rebalancing – Uses Gaia AI to determine optimal rebalancing strategies.
+** AI-Powered Liquidity Rebalancing – Uses Gaia AI to determine optimal rebalancing strategies.
 
 ✅ Multi-Protocol Integration – Supports Uniswap, StakeKit, and Steer Protocol for strategy execution.
 ✅ Automated Pre-Approval System – Allows users to sign transactions in advance for seamless execution.
@@ -10,7 +10,7 @@ AI-Powered Liquidity Rebalancing – Uses Gaia AI to determine optimal rebalanci
 ✅ User-Friendly Dashboard – View active liquidity positions, rebalancing status, and past transactions.
 ✅ Wallet Connectivity – Supports MetaMask, Coinbase Wallet, Rainbow, Rabby, and Zerion via Thirdweb.
 
-Tech Stack
+** Tech Stack
 
 Frontend: Next.js, TypeScript, TailwindCSS
 Blockchain: Solidity, Ethers.js, Thirdweb SDK
@@ -19,7 +19,7 @@ Protocols Used: Uniswap v3, Steer Protocol, StakeKit
 Oracles: Chainlink Price Feeds
 
 
-Installation & Setup
+** Installation & Setup
 
 1️⃣ Clone the Repository
 
@@ -31,7 +31,7 @@ npm install
 # OR
 yarn install
 
-Create .env.local
+** Create .env.local
 
 You need to set up environment variables in a .env.local file at the root of your project:
 
@@ -46,7 +46,7 @@ npm run dev
 # OR
 yarn dev
 
-Environment Variables Explanation
+** Environment Variables Explanation
 
 Variable	                                          Description
 NEXT_PUBLIC_THIRDWEB_CLIENT_ID	Thirdweb Client ID for wallet authentication.
